@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Lobster&family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lobster', sans-serif;
+}
+body{
+    background: url(bg\ image.webp);
+   background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.2px;
+    width: 70%;
+    height: 100%;
+
+}
+ header{
+    position: relative;
+    width: 111%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width:200px;
+}
+ header ul{
+    position: relative;
+    top: 0;
+    left: -28%;
+    display: flex;
+   
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    margin-right: 60px;
+}
+ header ul li a{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    padding: 20px 10px;
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    transition: all ease-in-out 0.1s;
+
+}
+ header ul li a:hover{  
+    text-decoration:underline;
+    color: #252323;
+}
+ header .logo{
+    margin-left: 20px;
+}
+ .containt{
+    position: relative;
+    width: 700px;
+    font-size: 4.0em;
+    margin-left: 114px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+    color: #fff;
+    line-height: 118px;
+  
+}
+.sec .containt h2{
+    font-family: 'Kanit', sans-serif;
+    text-transform: capitalize;
+}
+.sec .containt h2 span{
+    color: #222020;
+}
+
+.sec .paragraph{
+    width: 650px;
+    color: #fff;
+    margin-left: 122px;
+    font-size: 20px;
+}
+.sec .paragraph p{
+    font-family: 'Kanit', sans-serif;
+    height: 147px;
+}
+.sec .paragraph a{
+    position: relative;
+    top: 0;
+    left:0;
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(248, 233, 233, 0.979);
+    padding: 10px 22px;
+    border-radius: 45px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+    font-family: 'Kanit', sans-serif;
+}
+.sec .paragraph a:active{
+    background-color: #252323;
+    color: #fff;
+}
+.sec .image{
+    width: 283px;
+    position: relative;
+   bottom: -100px;
+    left: 111%;
+}
+.sec .image a img{
+    margin-right: 14px;
+    width: 54px;
+    transition: 0.5s;
+}
+.sec .image a img:active{
+    transform: translateY(-120%);
+    text-decoration: underline;
+}
+
+
